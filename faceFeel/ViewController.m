@@ -21,7 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // 创建表情
-    NSLog(@"start->%i", self.view.subviews.count);
+    NSLog(@"start->%lu", self.view.subviews.count);
     int colums=2;
     CGFloat margin=(self.view.frame.size.width - colums*KImgH)/(colums+1);
     // 第一个表情的y值
