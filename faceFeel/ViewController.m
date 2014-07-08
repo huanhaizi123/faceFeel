@@ -48,10 +48,11 @@
     }
 }
 
+#pragma mark 添加图片
 - (void)addImg: (NSString *)icon x:(CGFloat)x y:(CGFloat)y
 {
     UIImageView *img=[[UIImageView alloc]init];
-    NSLog(@"%i", self.view.subviews.count);
+    NSLog(@"%lu", self.view.subviews.count);
     img.image=[UIImage imageNamed:icon];
     img.frame=CGRectMake(x, y, KImgH, KImgH);
     
