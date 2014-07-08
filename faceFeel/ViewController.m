@@ -32,6 +32,7 @@
     for (int i=0; i<9; i++) {
         int num = i %9;//num = [0,8];
         
+        // 随机抽取图片
         NSString *imageName=[NSString stringWithFormat:@"01%d.png",num];
         
         // i这个位置对应的列数
